@@ -12,7 +12,7 @@
 
     <!-- AngularFire Extensions -->
     <script src='https://cdn.firebase.com/v0/firebase.js'></script>
-    <script src="https://cdn.firebase.com/libs/angularfire/0.5.0-rc1/angularfire.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
 
     <!-- Needed for Cordova/PhoneGap -->
     <!--<script type="text/javascript" src="cordova.js"></script>-->
@@ -53,7 +53,7 @@
         </header>
         <content has-header="true" scroll="false">
             <list>
-            <item ng-repeat="(name, project) in projectsList" ng-click="selectProject(name)" ng-class="{active: user.    lastproject == project}">
+            <item ng-repeat="(name, project) in projectsList" ng-click="selectProject(name)" ng-class="{active: user.lastproject == project}">
                     
                 </item>
             </list>
